@@ -9,7 +9,7 @@ Compute the differences between two states.
 - [Releases][9]
 
 ## Usage
-```rs,ignore
+```rust
 use changes::diff;
 
 let current = vec![ 1, 2, 3 ];
