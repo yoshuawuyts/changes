@@ -26,6 +26,10 @@ println!("{:?}", diff);
 //    ]
 ```
 
+## Safety
+This crate uses `#![forbid(unsafe_code)]` to ensure no raw pointers are
+accessed.
+
 ## Installation
 ```sh
 $ cargo add changes
