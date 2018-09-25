@@ -9,7 +9,21 @@ Compute the differences between two states.
 - [Releases][9]
 
 ## Usage
-```rs
+```rs,ignore
+use changes::diff;
+
+let current = vec![ 1, 2, 3 ];
+let desired = vec![ 1, 2, 3, 4 ];
+let diff = diff(current, desired);
+
+println!("{:?}", diff);
+// => [
+//      Ops::Noop(0),            // Don't do anything at index 0
+//      Ops::Noop(1),            // Don't do anything at index 0
+//      Ops::Noop(2),            // Don't do anything at index 0
+//      Ops::Move(3, 3),         // Move value from index 3 to current index 3
+//      Ops::Done,               // End
+//    ]
 ```
 
 ## Installation
