@@ -6,9 +6,10 @@ Compute the differences between two states.
 
 - [Documentation][8]
 - [Crates.io][2]
-- [Releases][9]
+- [Releases][releases]
 
-## Usage
+## Examples
+### Compute a diff between two vectors
 ```rust
 use changes::diff;
 
@@ -26,14 +27,21 @@ println!("{:?}", diff);
 //    ]
 ```
 
-## Safety
-This crate uses `#![forbid(unsafe_code)]` to ensure no raw pointers are
-accessed.
-
 ## Installation
 ```sh
 $ cargo add changes
 ```
+
+## Safety
+This crate uses ``#![deny(unsafe_code)]`` to ensure everything is implemented in
+100% Safe Rust.
+
+## Contributing
+Want to join us? Check out our ["Contributing" guide][contributing] and take a
+look at some of these issues:
+
+- [Issues labeled "good first issue"][good-first-issue]
+- [Issues labeled "help wanted"][help-wanted]
 
 ## References
 - [Myers diff in linear space: implementation](https://blog.jcoglan.com/2017/04/25/myers-diff-in-linear-space-implementation)
@@ -49,4 +57,8 @@ $ cargo add changes
 [6]: https://crates.io/crates/changes
 [7]: https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square
 [8]: https://docs.rs/changes
-[9]: https://github.com/yoshuawuyts/changes/releases
+
+[releases]: https://github.com/yoshuawuyts/changes/releases
+[contributing]: ./.github/CONTRIBUTING.md
+[good-first-issue]: https://github.com/yoshuawuyts/changes/labels/good%20first%20issue
+[help-wanted]: https://github.com/yoshuawuyts/changes/labels/help%20wanted
