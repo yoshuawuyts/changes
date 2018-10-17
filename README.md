@@ -44,7 +44,13 @@ look at some of these issues:
 - [Issues labeled "help wanted"][help-wanted]
 
 ## References
-- [Myers diff in linear space: implementation](https://blog.jcoglan.com/2017/04/25/myers-diff-in-linear-space-implementation)
+- [James Coglan - The Myers diff algorithm: part 1](https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1)
+- [James Coglan - The Myers diff algorithm: part 2](https://blog.jcoglan.com/2017/02/15/the-myers-diff-algorithm-part-2)
+- [James Coglan - The Myers diff algorithm: part 3](https://blog.jcoglan.com/2017/02/17/the-myers-diff-algorithm-part-3)
+- [James Coglan - Myers diff in linear space: theory](https://blog.jcoglan.com/2017/03/22/myers-diff-in-linear-space-theory)
+- [James Coglan - Myers diff in linear space: implementation](https://blog.jcoglan.com/2017/04/25/myers-diff-in-linear-space-implementation)
+- [James Coglan - The patience diff algorithm](https://blog.jcoglan.com/2017/09/19/the-patience-diff-algorithm/)
+- [James Coglan - Implementing patience diff](https://blog.jcoglan.com/2017/09/28/implementing-patience-diff)
 
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)
