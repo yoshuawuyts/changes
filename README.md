@@ -57,7 +57,7 @@ look at some of these issues:
 
 [1]: https://img.shields.io/crates/v/changes.svg?style=flat-square
 [2]: https://crates.io/crates/changes
-[3]: https://img.shields.io/travis/yoshuawuyts/changes.svg?style=flat-square
+[3]: https://img.shields.io/travis/yoshuawuyts/changes/master.svg?style=flat-square
 [4]: https://travis-ci.org/yoshuawuyts/changes
 [5]: https://img.shields.io/crates/d/changes.svg?style=flat-square
 [6]: https://crates.io/crates/changes
