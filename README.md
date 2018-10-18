@@ -65,6 +65,6 @@ look at some of these issues:
 [8]: https://docs.rs/changes
 
 [releases]: https://github.com/yoshuawuyts/changes/releases
-[contributing]: ./.github/CONTRIBUTING.md
+[contributing]: https://github.com/yoshuawuyts/changes/blob/master.github/CONTRIBUTING.md
 [good-first-issue]: https://github.com/yoshuawuyts/changes/labels/good%20first%20issue
 [help-wanted]: https://github.com/yoshuawuyts/changes/labels/help%20wanted
